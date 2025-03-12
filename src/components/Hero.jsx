@@ -1,13 +1,14 @@
 import Button from "./Button";
+import favicon from '../../public/favicon.png';
 
 export default function Hero() {
   return (
     <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[800px] w-full mx-auto p-4">
       <div className="flex flex-col gap-4 items-center">
         <p>IT'S TIME TO GET</p>
-        <img src="./public/favicon.png" alt="" className="size-64" />
+        <img src={favicon} alt="" className="size-64" />
         <h1 className="uppercase font-semibold text-4xl sm:text-5xl md:text-5xl md:text-6xl lg:text-7xl">
-          Beff<span className="text-blue-400">CAKE</span>
+          Beef<span className="text-blue-400">CAKE</span>
         </h1>
       </div>
       <p className="text-sm md:text-base font-light">
